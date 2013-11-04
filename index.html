@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+
+
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <title>AhmadNaser.com - Sample Demo</title>
+
+  <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap.icon-large.min.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/bootstrap-responsive.min.css">
+
+    <link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+
+  	  <script type="text/javascript" language="javascript" charset="utf-8" src="js/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" language="javascript" charset="utf-8" src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+	
+	<script>
+	$(document).ready(function(){
+	
+		$("a[rel^='prettyPhoto']").prettyPhoto();
+	
+		$(".box").mouseover(function(){
+		var x="<a style='color:white !important;'>this is the photo description of image</a>";
+         $(this).children('div').html(x);
+		
+     });
+	
+			$(".box").mouseout(function(){
+		var x="<a >this is the photo description of image</a>";
+         $(this).children('div').html(x);
+		
+     });
+	
+	});
+	
+
+	</script>
+</head>
+<body>
+
+<div id="page">
+
+<h1 class="h1-begin">Welcome , Photo Gallary</h1>
+
+
+<div class="box-container">
+
+<div class="box">
+<a class="abc" href="images/1.jpg" rel='prettyPhoto[gallery1]'><img src="images/1.jpg" /></a>
+
+<div><a>this is the photo description of image</a></div>
+</div><!--box-->
+
+
+<div class="box">
+<a class="abc" href="images/2.jpg" rel='prettyPhoto[gallery1]'><img src="images/2.jpg" /></a>
+
+<div><a>this is the photo description of image</a></div>
+</div><!--box-->
+
+
+<div class="box">
+<a class="abc"  href="images/3.jpg" rel='prettyPhoto[gallery1]'><img src="images/3.jpg" /></a>
+
+<div><a>this is the photo description of image</a></div>
+</div><!--box-->
+
+
+<div class="box">
+<a class="abc" href="images/4.jpg" rel='prettyPhoto'><img src="images/4.jpg" /></a>
+
+<div><a>this is the photo description of image</a></div>
+</div><!--box-->
+
+
+<div class="box">
+<a class="abc" href="images/1.jpg"  rel='prettyPhoto'><img src="images/1.jpg" /></a>
+
+<div><a>this is the photo description of image</a></div>
+</div><!--box-->
+
+<div class="box">
+<a class="abc" href="images/1.jpg" rel='prettyPhoto'><img src="images/1.jpg" /></a>
+
+<div><a>this is the photo description of image</a></div>
+</div><!--box-->
+
+
+
+<div class="box">
+<a class="abc" href="images/1.jpg" rel='prettyPhoto'><img src="images/1.jpg" /></a>
+
+<div><a>this is the photo description of image</a></div>
+</div><!--box-->
+
+
+<div class="box">
+<a class="abc" href="images/2.jpg" rel='prettyPhoto'><img src="images/2.jpg" /></a>
+
+<div><a>this is the photo description of image</a></div>
+</div><!--box-->
+
+
+<div class="box">
+<a class="abc"  href="images/3.jpg" rel='prettyPhoto'><img src="images/3.jpg" /></a>
+
+<div><a>this is the photo description of image</a></div>
+</div><!--box-->
+
+
+<div class="box">
+<a class="abc" href="images/4.jpg" rel='prettyPhoto'><img src="images/4.jpg" /></a>
+
+<div><a>this is the photo description of image</a></div>
+</div><!--box-->
+
+
+<div class="box">
+<a class="abc" href="images/1.jpg"  rel='prettyPhoto'><img src="images/1.jpg" /></a>
+
+<div><a>this is the photo description of image</a></div>
+</div><!--box-->
+
+<div class="box">
+<a class="abc" href="images/1.jpg" rel='prettyPhoto'><img src="images/1.jpg" /></a>
+
+<div><a>this is the photo description of image</a></div>
+</div><!--box-->
+
+
+
+
+</div><!--box-container-->
+
+
+
+</div><!--page-->
+
+</body>
+</html>
